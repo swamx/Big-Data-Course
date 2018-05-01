@@ -8,5 +8,5 @@ Industrie 4.0 (or Smart Factory) is one of the prime contributors for generating
 ### Organization of the Repository:
 * Config Folder: Configuration files for various softwares
 * Codes Folder: 
- Automation Scripts: Scripts to automate the launch process of the system
- Kafka Scripts: Scripts to fetch data from twitter and store data in MongoDB
+1) Automation Scripts: Scripts to automate the launch process of the system
+2) Kafka Scripts: Scripts to fetch data from twitter and store data in MongoDB
