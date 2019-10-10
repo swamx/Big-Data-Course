@@ -17,7 +17,7 @@ class StdOutListener(StreamListener):
         print(status)
 
 listener_producer = StdOutListener()
-auth = OAuthHandler("kH84uQAU3Wjtgks6OLKXIdBil", "rjZBI1x2Tv7XbDEBGbZRZrskWwGc9Afqqb20YGD7NXHsVw9EtZ")
-auth.set_access_token("989062603-pChjdoZDHY8YsklhXaGft5unmvnwrObiY9FwOLMY", "tDnHKBDUx3CRt8CPkmiNg5MPl9eSnND3RobaQx2NSyrDs")
+auth = OAuthHandler("", "")
+auth.set_access_token("","")
 stream = Stream(auth, listener_producer)
 stream.filter(languages=["en"], track=["trump"])
